@@ -20,7 +20,7 @@ You may find it helpful to save these commands to a shell script in the ````smdt
 ## Getting raw data
 
 ## Running the code
-After building there will be several executables in you build area. The setup script creates aliases for these so they may be run quickly. These are---
+After building there will be several executables in you build area. The setup script creates aliases for these so they may be run quickly. These are—
 ````
 ./build/decodeRawData --conf ./conf/<your-file>.conf
 ./build/decodeRawData --conf ./conf/<your-file>.conf
