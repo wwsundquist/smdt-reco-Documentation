@@ -108,7 +108,7 @@ DisabledChannel     =  9999 # TDC7 channel9 disabled #method to disable specific
 
 
 
-[AutoCalibration]
+[AutoCalibration] #R(t) fitting
 Parameterization = Chebyshev
 MinEvent         =       0
 NEvents          =  100000
@@ -120,18 +120,17 @@ ConstrainZero    = 1
 ConstrainEndpoint= 0
 MaxLinear        = 0.15
 
-[Residuals]
+[Residuals] #calculate residuals for first NEvents
 NEvents          = 100000
 MinEvent         =      0
 UseResForSysts   =      0
 
-[Resolution]
+[Resolution] #use to generate few different possible kinds of MC
 DeconvolutionRun          = 14
 DeconvolutionRunSoftEDown = 11
 DeconvolutionRunSoftEUp   = 10
 DeconvolutionRunNoSoftE   = 12
 ReconvolutionRun          = 15
-
 ````
 ### Data format
 Data formats related to signal type, it's a cypher to decode the words in the packet. Value should be one of these strings (w/o quotes!)
