@@ -11,7 +11,7 @@ To build the code, run
 ````
 cd smdt_reco/
 source setup.sh
-sc ./build/
+cd ./build/
 make -j10
 cd ../
 ````
@@ -153,4 +153,4 @@ Can choose chebyshev or polynomial interpolation. Piecewise does not work. used 
 
 [Depricated documentation](https://kenelson.web.cern.ch/documentation/smdt-reco/)
 
-[Ack! Take me Home](index.md)
+<p style="text-align:center;">[Ack! Take me Home](index.md)</p>
